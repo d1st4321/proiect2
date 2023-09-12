@@ -1,0 +1,127 @@
+        /* Add some basic styling to make it visually appealing */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;  
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,0,0,1) 0%, rgba(25,134,21,1) 79%);         
+        }
+
+        header {
+            background-color: #609210;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        /* Increase the header text size */
+        header h1 {
+            font-size: 45px;
+            /* Adjust the font size as needed */
+        }
+
+        header p {
+            text-align: right;
+        }
+
+        nav {
+            background-color: #a12727;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 30px;
+            /* Adjust the font size as needed */
+        }
+
+        /* Add hover effect for the menu items */
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Add some content to the main section */
+        main {
+            padding: 20px;
+        }
+
+        /* Stilizare pentru conținut */
+        .content {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        /* Stilizare pentru imagine */
+        .video-card-image {
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+            margin-right: 75px;
+            margin-left: 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        /* Stilizare pentru conținut */
+        .content2 {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        p{
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        h1{
+            padding-bottom: 50px;
+            text-align: center;
+        }
+
+        /* Stilizare pentru imagine */
+        .video-card-imagen{
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+            padding-left: 300px;
+            margin-right: 80px;
+            margin-left: 10px;
+        }
+        .video-card-imagei{
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+            padding-left: 350px;
+            margin-right: 80px;
+            margin-left: 10px;
+        }
+        .video-card-imager{
+            max-width: 100%;
+            height: auto;
+            padding: 10px;
+            margin-right: 80px;
+            margin-left: 10px;
+        }
